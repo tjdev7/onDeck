@@ -4,10 +4,18 @@ import ReactDOM from 'react-dom';
 const menu items
 
 
-Liked
+const LikeButton {
 
-Unlike 
+}
 
-Heart
+Const UnlikeButton {
 
-Hide
+} 
+
+Const FavoriteButton {
+
+}
+
+Const HideButton {
+	
+}
