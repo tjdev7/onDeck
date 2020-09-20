@@ -6,14 +6,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <p>
-          onDeck - Social media app
+        <p className="App-Title">
+          onDeck
         </p>
+        <p className="App-Subtitle">Picture sharing platform</p>
 
       </header>
     </div>
   );
 }
+
+// function CardDisplay() {
+	
+// }
 
 export default App;

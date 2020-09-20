@@ -1,32 +1,33 @@
 .App {
   text-align: center;
+  background-color: #047240;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-/*@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}*/
 
 .App-header {
-  background-color: #047240;
-  min-height: 100vh;
+  
+  /*min-height: 100vh;*/
   /*display: flex;
   flex-direction: column;*/
-  align-items: left;
-  justify-content: left;
+  /*align-items: left;
+  justify-content: left;*/
   font-size: calc(10px + 2vmin);
   color: white;
-  border-bottom: 5px solid #000000;
+  border-bottom: 10px solid #000000;
+  margin: 15px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-Title {
+  font-family: 'Impact';
+  font-size: calc(40px + 3vmin);
+  margin: -20px;
+}
+
+.App-Subtitle {
+  
 }
 
 /*
@@ -34,45 +35,47 @@
   
 }
 
-.card.1 {
+.card.col.1 {
   
 }
 
-.card.2 {
+.card.col.2 {
   
 }
 
-.card.3 {
+.card.col.3 {
   
 }
 
-.card.4 {
+.card.col.4 {
   
 }
 
 
 
 .menu.media {
- favicon ref
 
 }
 
 .menu.like {
   favicon ref
   fa fa-thumbs-up
+  color: white;
 }
 
 .menu.dislike {
   favicon ref
   fa fa-thumbs-down
+  color: white;
 }
 
 .menu.favorite {
   favicon ref
   fa fa-thumb-tack
+  color: white;
 }
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <i class="fa fa-thumb-tack" style="font-size:48px;color:red"></i>
 
 
@@ -81,8 +84,6 @@
 .menu.hide {
   favicon ref
     cancel
-    <i class="material-icons" style="font-size:48px;color:red">cancel</i>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  color: white;    
 }
 */
