@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  background-color: #047240;
+  background-color: #E3E3E3;
 }
 
 .App-header {
-  
+  background-color: #047240;
   /*min-height: 100vh;*/
   /*display: flex;
   flex-direction: column;*/
@@ -12,8 +12,8 @@
   justify-content: left;*/
   font-size: calc(10px + 2vmin);
   color: white;
-  border-bottom: 10px solid #000000;
-  margin: 15px;
+  border-bottom: 5px solid #000000;
+  margin: 15px 0px 0px 0px;
 }
 
 .App-link {
@@ -29,6 +29,15 @@
 .App-Subtitle {
   
 }
+
+.rowtest1 {
+
+}
+
+.card-col {
+  margin:20px 20px 10px 0px;
+}
+
 
 /*
 .card-row {
