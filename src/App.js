@@ -1,6 +1,7 @@
 import React from 'react';
 import cardstock1 from './img/cardstock1.JPG';
 
+
 import './App.css';
 
 function App() {
@@ -14,17 +15,71 @@ function App() {
 
       </header>
         <div className="rowtest1">
-          <img src={cardstock1} className="card-col" alt="carttest" />
-          <img src={cardstock1} className="card-col" alt="carttest" />
-          <img src={cardstock1} className="card-col" alt="carttest" />
-          <img src={cardstock1} className="card-col" alt="carttest" />
+          <span>
+            <span className="card-col">
+              <img src={cardstock1} className="" alt="carttest" />
+              <i className = "fa fa-thumbs-up"/>
+            </span>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+        
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+        
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+        
         </div>
 
         <div className="rowtest1">
-          <img src={cardstock1} className="card-col" alt="carttest" />
-          <img src={cardstock1} className="card-col" alt="carttest" />
-          <img src={cardstock1} className="card-col" alt="carttest" />
-          <img src={cardstock1} className="card-col" alt="carttest" />
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
+          <span>
+            <img src={cardstock1} className="card-col" alt="carttest" />
+            <i className = "fa fa-thumbs-up"/>
+            <i className = "fa fa-thumbs-down"/>
+            <i className = "fa fa-thumb-tack"/>
+            <i className = "fa fa-times-circle"/>
+          </span>
         </div>
 
 
