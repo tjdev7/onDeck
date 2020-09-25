@@ -11,7 +11,7 @@
   /*align-items: left;
   justify-content: left;*/
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FFFFFF;
   border-bottom: 5px solid #000000;
   margin: 15px 0px 0px 0px;
 }
@@ -36,6 +36,17 @@
 
 .card-col {
   margin:20px 20px 10px 0px;
+}
+
+.fa {
+  color: #FFFFFF;
+  background-color: #047240;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  padding: 7px;
 }
 
 
