@@ -38,15 +38,20 @@
   margin:20px 20px 10px 0px;
 }
 
+.col {
+  margin-top: 10px;
+}
+
 .fa {
   color: #FFFFFF;
   background-color: #047240;
   font-size: 25px;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   display: inline-block;
   padding: 7px;
+  margin: 5px;
 }
 
 
