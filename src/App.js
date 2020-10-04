@@ -24,7 +24,7 @@ function App() {
           </span>
 
           <span className ="col">
-            <img src={cardstock1} alt="carttest" />
+            <img src={cardstock2} alt="carttest" />
             <i className = "fa fa-thumbs-up"/>
             <i className = "fa fa-thumbs-down"/>
             <i className = "fa fa-thumb-tack"/>
@@ -32,7 +32,7 @@ function App() {
           </span>
         
           <span className="col">
-            <img src={cardstock1} alt="carttest" />
+            <img src={cardstock3} alt="carttest" />
             <i className = "fa fa-thumbs-up"/>
             <i className = "fa fa-thumbs-down"/>
             <i className = "fa fa-thumb-tack"/>
@@ -40,7 +40,7 @@ function App() {
           </span>
         
           <span className="col">
-            <img src={cardstock1} alt="carttest" />
+            <img src={cardstock4} alt="carttest" />
             <i className = "fa fa-thumbs-up"/>
             <i className = "fa fa-thumbs-down"/>
             <i className = "fa fa-thumb-tack"/>
@@ -50,28 +50,28 @@ function App() {
 
         <div className="rowtest1 row">
           <span className="col">
-              <img src={cardstock1} alt="carttest" />
+              <img src={cardstock5} alt="carttest" />
               <i className = "fa fa-thumbs-up"/>
               <i className = "fa fa-thumbs-down"/>
               <i className = "fa fa-thumb-tack"/>
               <i className = "fa fa-times-circle"/>
           </span>
           <span className="col">
-              <img src={cardstock1} alt="carttest" />
+              <img src={cardstock6} alt="carttest" />
               <i className = "fa fa-thumbs-up"/>
               <i className = "fa fa-thumbs-down"/>
               <i className = "fa fa-thumb-tack"/>
               <i className = "fa fa-times-circle"/>
           </span>
           <span className="col">
-              <img src={cardstock1} alt="carttest" />
+              <img src={cardstock7} alt="carttest" />
               <i className = "fa fa-thumbs-up"/>
               <i className = "fa fa-thumbs-down"/>
               <i className = "fa fa-thumb-tack"/>
               <i className = "fa fa-times-circle"/>
           </span>
           <span className="col">
-              <img src={cardstock1} alt="carttest" />
+              <img src={cardstock8} alt="carttest" />
               <i className = "fa fa-thumbs-up"/>
               <i className = "fa fa-thumbs-down"/>
               <i className = "fa fa-thumb-tack"/>
@@ -82,6 +82,99 @@ function App() {
     </div>
   );
 }
+
+
+// let clips = [
+//   {
+//     id: 1,
+//     cardstock1: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 2,
+//     cardstock2: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 3,
+//     cardstock3: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 4,
+//     cardstock4: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 5,
+//     cardstock5: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 6,
+//     cardstock6: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 7,
+//     cardstock7: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   },
+//   {
+//     id: 8,
+//     cardstock8: ,
+//     like: ,
+//     dislike: ,
+//     favorite: ,
+//     hide: 
+//   }
+// ]
+
+// const like() {
+//   return(
+
+//   );
+// }
+
+// const dislike() {
+//   return(
+
+//   );
+// }
+
+// const favorite() {
+//   return(
+
+//   );
+// }
+
+// const hide() {
+//   return(
+
+//   );
+// }
+
 
 // function CardDisplay() {
 //   return (
