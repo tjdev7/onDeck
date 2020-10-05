@@ -3,7 +3,7 @@
   background-color: #E3E3E3;
 }
 
-.App-header {
+.Header {
   background-color: #047240;
   font-size: calc(10px + 2vmin);
   color: #FFFFFF;
@@ -15,18 +15,14 @@
   color: #61dafb;
 }
 
-.App-Title {
+.Title {
   font-family: 'Impact';
   font-size: calc(40px + 3vmin);
   margin: -20px;
 }
 
-.App-Subtitle {
+.Subtitle {
   
-}
-
-.rowtest1 {
-
 }
 
 .card-col {
