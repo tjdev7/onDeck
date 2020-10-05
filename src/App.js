@@ -1,5 +1,12 @@
 import React from 'react';
 import cardstock1 from './img/cardstock1.JPG';
+import cardstock2 from './img/cardstock2.JPG';
+import cardstock3 from './img/cardstock3.JPG';
+import cardstock4 from './img/cardstock4.JPG';
+import cardstock5 from './img/cardstock5.JPG';
+import cardstock6 from './img/cardstock6.JPG';
+import cardstock7 from './img/cardstock7.JPG';
+import cardstock8 from './img/cardstock8.JPG';
 import './App.css';
 import './bootstrap.css';
 
@@ -84,7 +91,7 @@ function App() {
 }
 
 
-// let clips = [
+// let cards = [
 //   {
 //     id: 1,
 //     cardstock1: ,
