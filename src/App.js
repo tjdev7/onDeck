@@ -23,66 +23,67 @@ function App() {
       <div className="container">
         <div className="rowtest1 row">
           <span className="col">
+              <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
               <img src={cardstock1} alt="carttest" />
-              <i className = "fa fa-thumbs-up"/>
-              <i className = "fa fa-thumbs-down"/>
-              <i className = "fa fa-thumb-tack"/>
-              <i className = "fa fa-times-circle"/>
+              <i className = "fa fa-thumb-tack"/>favorite
           </span>
 
           <span className ="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
             <img src={cardstock2} alt="carttest" />
-            <i className = "fa fa-thumbs-up"/>
-            <i className = "fa fa-thumbs-down"/>
-            <i className = "fa fa-thumb-tack"/>
-            <i className = "fa fa-times-circle"/>
+            <i className = "fa fa-thumb-tack"/>favorite
           </span>
         
           <span className="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
             <img src={cardstock3} alt="carttest" />
-            <i className = "fa fa-thumbs-up"/>
-            <i className = "fa fa-thumbs-down"/>
-            <i className = "fa fa-thumb-tack"/>
-            <i className = "fa fa-times-circle"/>
+            <i className = "fa fa-thumb-tack"/>favorite
           </span>
         
           <span className="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
             <img src={cardstock4} alt="carttest" />
-            <i className = "fa fa-thumbs-up"/>
-            <i className = "fa fa-thumbs-down"/>
-            <i className = "fa fa-thumb-tack"/>
-            <i className = "fa fa-times-circle"/>
+            <i className = "fa fa-thumb-tack"/>favorite
           </span>
         </div>
 
         <div className="rowtest1 row">
           <span className="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
               <img src={cardstock5} alt="carttest" />
-              <i className = "fa fa-thumbs-up"/>
-              <i className = "fa fa-thumbs-down"/>
-              <i className = "fa fa-thumb-tack"/>
-              <i className = "fa fa-times-circle"/>
+              <i className = "fa fa-thumb-tack"/>favorite
           </span>
           <span className="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
               <img src={cardstock6} alt="carttest" />
-              <i className = "fa fa-thumbs-up"/>
-              <i className = "fa fa-thumbs-down"/>
-              <i className = "fa fa-thumb-tack"/>
-              <i className = "fa fa-times-circle"/>
+              <i className = "fa fa-thumb-tack"/>favorite
           </span>
           <span className="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
               <img src={cardstock7} alt="carttest" />
-              <i className = "fa fa-thumbs-up"/>
-              <i className = "fa fa-thumbs-down"/>
-              <i className = "fa fa-thumb-tack"/>
-              <i className = "fa fa-times-circle"/>
+              <i className = "fa fa-thumb-tack"/>favorite
           </span>
           <span className="col">
+          <span className="">title test</span>
+              <br/>
+              <span className="">subtitle test</span>
               <img src={cardstock8} alt="carttest" />
-              <i className = "fa fa-thumbs-up"/>
-              <i className = "fa fa-thumbs-down"/>
-              <i className = "fa fa-thumb-tack"/>
-              <i className = "fa fa-times-circle"/>
+
+              <i className = "fa fa-thumb-tack"/>favorite
           </span>
         </div>
     </div>
