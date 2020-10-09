@@ -2,4 +2,4 @@
 
 # onDeck
 
-Picture sharing social media platform. Made using basic React components and prop-types.
+Picture sharing social media platform. Made rendering basic React components and prop-types. Stock images taken from Unsplash.com
