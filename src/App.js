@@ -1,12 +1,16 @@
 import React from 'react';
-import cardstock1 from './img/cardstock1.JPG';
-import cardstock2 from './img/cardstock2.JPG';
-import cardstock3 from './img/cardstock3.JPG';
-import cardstock4 from './img/cardstock4.JPG';
-import cardstock5 from './img/cardstock5.JPG';
 import cardstock6 from './img/cardstock6.JPG';
 import cardstock7 from './img/cardstock7.JPG';
 import cardstock8 from './img/cardstock8.JPG';
+import img001 from './img/img001.jpg';
+import img002 from './img/img002.jpg';
+import img003 from './img/img003.jpg';
+import img004 from './img/img004.jpg';
+import img005 from './img/img005.jpg';
+import img006 from './img/img006.jpg';
+import img007 from './img/img007.jpg';
+import img008 from './img/img008.jpg';
+import img009 from './img/img009.jpg';
 import './App.css';
 import './bootstrap.css';
 
@@ -23,67 +27,51 @@ function App() {
       <div className="container">
         <div className="rowtest1 row">
           <span className="col">
-              <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-              <img src={cardstock1} alt="carttest" />
-              <i className = "fa fa-thumb-tack"/>favorite
+              <img className="cardImage" src={img001} alt="Card-render-01" />
           </span>
 
           <span className ="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-            <img src={cardstock2} alt="carttest" />
-            <i className = "fa fa-thumb-tack"/>favorite
+            <img className="cardImage" src={img002} alt="Card-render-02" />
           </span>
         
           <span className="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-            <img src={cardstock3} alt="carttest" />
-            <i className = "fa fa-thumb-tack"/>favorite
+            <img className="cardImage" src={img003} alt="Card-render-03" />
           </span>
-        
           <span className="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-            <img src={cardstock4} alt="carttest" />
-            <i className = "fa fa-thumb-tack"/>favorite
+            <img className="cardImage" src={img004} alt="Card-render-04" />
           </span>
+
         </div>
 
         <div className="rowtest1 row">
           <span className="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-              <img src={cardstock5} alt="carttest" />
-              <i className = "fa fa-thumb-tack"/>favorite
+              <img className="cardImage"  src={img005} alt="Card-render-05" />
           </span>
           <span className="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-              <img src={cardstock6} alt="carttest" />
-              <i className = "fa fa-thumb-tack"/>favorite
+              <img className="cardImage"  src={img006} alt="Card-render-06" />
           </span>
           <span className="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-              <img src={cardstock7} alt="carttest" />
-              <i className = "fa fa-thumb-tack"/>favorite
+              <img className="cardImage" src={img007} alt="Card-render-07" />
           </span>
           <span className="col">
-          <span className="">title test</span>
-              <br/>
-              <span className="">subtitle test</span>
-              <img src={cardstock8} alt="carttest" />
+              <img className="cardImage" src={img008} alt="Card-render-08" />
+          </span>
+        </div>
+        <div className="rowtest1 row">
+          <span className="col">
 
-              <i className = "fa fa-thumb-tack"/>favorite
+              <img className="cardImage" src={img009} alt="Card-render-09" />
+
+          </span>
+          <span className="col">
+
+              <img className="cardImage" src={cardstock6} alt="Card-render-10" />
+          </span>
+          <span className="col">
+              <img className="cardImage" src={cardstock7} alt="Card-render-11" />
+          </span>
+          <span className="col">
+              <img className="cardImage" src={cardstock8} alt="Card-render-12" />
           </span>
         </div>
     </div>

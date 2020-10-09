@@ -54,9 +54,20 @@
   margin: 5px;
 }
 
-.cardStock {
+.cardImage {
   width: 240px;
   height: 360px;
+}
+
+.cardBack {
+  color: yellow;
+  border-radius: 15px;
+  width: 280px;
+  height: 400px;
+}
+
+img {
+  border-radius: 15px;
 }
 
 /*
