@@ -30,16 +30,12 @@
   
 }
 
-.rowtest1 {
-
-}
-
-.card-col {
-  margin:20px 20px 10px 0px;
-}
-
 .col {
-  margin-top: 10px;
+  margin: 10px -21px -5px -20px;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 .fa {
@@ -51,7 +47,7 @@
   width: 40px;
   display: inline-block;
   padding: 7px;
-  margin: 5px;
+  margin: 5px 5px 10px 5px;
 }
 
 .cardImage {

@@ -24,6 +24,15 @@ function App() {
         <p className="App-Subtitle">Picture sharing platform</p>
 
       </header>
+      <h1>Engineering Inspiration</h1>
+      <main>
+        <i className = "fa fa-heart-tack"/>Stacks
+        <i className = "fa fa-heart-tack"/>Liked
+        <i className = "fa fa-thumb-tack"/>Favorites
+        <i className = "fa fa-thumb-tack"/>Following topic
+
+      </main>
+
       <div className="container">
         <div className="rowtest1 row">
           <span className="col">
