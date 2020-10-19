@@ -1,7 +1,4 @@
 import React from 'react';
-import cardstock6 from './img/cardstock6.JPG';
-import cardstock7 from './img/cardstock7.JPG';
-import cardstock8 from './img/cardstock8.JPG';
 import img001 from './img/img001.jpg';
 import img002 from './img/img002.jpg';
 import img003 from './img/img003.jpg';
@@ -21,15 +18,18 @@ function App() {
         <p className="App-Title">
           onDeck
         </p>
-        <p className="App-Subtitle">Picture sharing platform</p>
 
       </header>
-      <h1>Engineering Inspiration</h1>
+      <span className="subdesc">
+        <h1>Engineering Inspiration</h1>
+        <h2>Topic description</h2>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien lacus, commodo sed volutpat nec, blandit malesuada elit. Mauris congue nec eros nec volutpat. Sed sit amet congue elit. Ut efficitur orci arcu, sit amet imperdiet turpis iaculis ut. Phasellus feugiat arcu metus, eu viverra felis cursus vitae.</h4>
+      </span>
       <main>
-        <i className = "fa fa-heart-tack"/>Stacks
-        <i className = "fa fa-heart-tack"/>Liked
-        <i className = "fa fa-thumb-tack"/>Favorites
-        <i className = "fa fa-thumb-tack"/>Following topic
+        <i className = "fa fa-thumb-tack"/>[0] Stacks
+        <i className = "fa fa-thumbs-up"/>[1500] Liked
+        <i className = "fa fa-heart"/>[1.14k.] Favorites
+        <i className = "fa fa-thumb-tack"/>[0] Following topic
 
       </main>
 
@@ -37,17 +37,45 @@ function App() {
         <div className="rowtest1 row">
           <span className="col">
               <img className="cardImage" src={img001} alt="Card-render-01" />
+                <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
 
           <span className ="col">
             <img className="cardImage" src={img002} alt="Card-render-02" />
+            <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
         
           <span className="col">
             <img className="cardImage" src={img003} alt="Card-render-03" />
+            <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img004} alt="Card-render-04" />
+            <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
+          </span>
+          <span className="col">
+            <img className="cardImage" src={img004} alt="Card-render-04" />
+            <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
 
         </div>
@@ -55,32 +83,85 @@ function App() {
         <div className="rowtest1 row">
           <span className="col">
               <img className="cardImage"  src={img005} alt="Card-render-05" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
               <img className="cardImage"  src={img006} alt="Card-render-06" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img007} alt="Card-render-07" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img008} alt="Card-render-08" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
+          </span>
+          <span className="col">
+            <img className="cardImage" src={img004} alt="Card-render-04" />
+            <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
         </div>
         <div className="rowtest1 row">
           <span className="col">
-
               <img className="cardImage" src={img009} alt="Card-render-09" />
-
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
-
-              <img className="cardImage" src={cardstock6} alt="Card-render-10" />
+              <img className="cardImage" src={img004} alt="Card-render-10" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
-              <img className="cardImage" src={cardstock7} alt="Card-render-11" />
+              <img className="cardImage" src={img004} alt="Card-render-11" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
           <span className="col">
-              <img className="cardImage" src={cardstock8} alt="Card-render-12" />
+              <img className="cardImage" src={img004} alt="Card-render-12" />
+              <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
+          </span>
+          <span className="col">
+            <img className="cardImage" src={img004} alt="Card-render-04" />
+            <aside> 
+                  <i className = "fa fa-thumbs-up"/>
+                  <i className = "fa fa-thumb-tack"/>
+                  <i className = "fa fa-share-square"/>
+                </aside>
           </span>
         </div>
     </div>

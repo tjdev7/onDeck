@@ -1,7 +1,7 @@
-.App {
+/*.App {
   text-align: center;
   background-color: #E3E3E3;
-}
+}*/
 
 .App-header {
   background-color: #047240;
@@ -10,10 +10,10 @@
   flex-direction: column;*/
   /*align-items: left;
   justify-content: left;*/
-  font-size: calc(10px + 2vmin);
+/*  font-size: calc(10px + 2vmin);*/
   color: #FFFFFF;
   border-bottom: 5px solid #000000;
-  margin: 15px 0px 0px 0px;
+/*  margin: 15px 0px 0px 0px;*/
 }
 
 .App-link {
@@ -22,12 +22,23 @@
 
 .App-Title {
   font-family: 'Impact';
-  font-size: calc(40px + 3vmin);
-  margin: -20px;
+  font-size: calc(30px + 3vmin);
+  
 }
 
+.App-Title,
 .App-Subtitle {
-  
+  margin: -10px 0px 5px 10px;
+}
+
+.App-Title,
+.App-header
+h1 {
+    text-align: left;
+}
+
+.subdesc { 
+  margin: -50px;
 }
 
 .col {
@@ -36,6 +47,7 @@
 
 h1 {
   font-size: 30px;
+
 }
 
 .fa {
@@ -51,19 +63,19 @@ h1 {
 }
 
 .cardImage {
-  width: 240px;
-  height: 360px;
+  width: 200px;
+  height: 320px;
 }
 
-.cardBack {
+/*.cardBack {
   color: yellow;
   border-radius: 15px;
   width: 280px;
   height: 400px;
-}
+}*/
 
 img {
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 /*
