@@ -21,16 +21,15 @@ function App() {
 
       </header>
       <span className="subdesc">
-        <h1>Engineering Inspiration</h1>
-        <h2>Topic description</h2>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien lacus, commodo sed volutpat nec, blandit malesuada elit. Mauris congue nec eros nec volutpat. Sed sit amet congue elit. Ut efficitur orci arcu, sit amet imperdiet turpis iaculis ut. Phasellus feugiat arcu metus, eu viverra felis cursus vitae.</h4>
+        <h1 className="StackTopic">Engineering Inspiration</h1>
+        <h2 className="">Topic description</h2>
+        <h4 className="StackDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien lacus, commodo sed volutpat nec, blandit malesuada elit. Mauris congue nec eros nec volutpat. Sed sit amet congue elit. Ut efficitur orci arcu, sit amet imperdiet turpis iaculis ut. Phasellus feugiat arcu metus, eu viverra felis cursus vitae.</h4>
       </span>
-      <main>
+      <main className="">
         <i className = "fa fa-thumb-tack"/>[0] Stacks
         <i className = "fa fa-thumbs-up"/>[1500] Liked
         <i className = "fa fa-heart"/>[1.14k.] Favorites
         <i className = "fa fa-thumb-tack"/>[0] Following topic
-
       </main>
 
       <div className="container">
@@ -38,43 +37,88 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img001} alt="Card-render-01" />
                 <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
 
           <span className ="col">
             <img className="cardImage" src={img002} alt="Card-render-02" />
             <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
         
           <span className="col">
             <img className="cardImage" src={img003} alt="Card-render-03" />
             <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img004} alt="Card-render-04" />
             <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                 <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img004} alt="Card-render-04" />
             <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
 
@@ -84,41 +128,86 @@ function App() {
           <span className="col">
               <img className="cardImage"  src={img005} alt="Card-render-05" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage"  src={img006} alt="Card-render-06" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img007} alt="Card-render-07" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img008} alt="Card-render-08" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img004} alt="Card-render-04" />
             <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
         </div>
@@ -126,41 +215,86 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img009} alt="Card-render-09" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img004} alt="Card-render-10" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img004} alt="Card-render-11" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img004} alt="Card-render-12" />
               <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img004} alt="Card-render-04" />
             <aside> 
-                  <i className = "fa fa-thumbs-up"/>
-                  <i className = "fa fa-thumb-tack"/>
-                  <i className = "fa fa-share-square"/>
+                  <span><a href="starrt.com"> 
+                  0 <i className = "fa fa-thumbs-up"/>
+                  </a>
+                  </span>
+                  <span><a href="starrt.com">
+                  0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
         </div>
@@ -168,6 +302,15 @@ function App() {
     </div>
   );
 }
+
+
+// var TopicBar = {
+//   Stacks: 15,
+//   Liked: 1500,
+//   Favorites: 1.14k,
+//   Following: 34
+// }
+
 
 
 // let cards = [

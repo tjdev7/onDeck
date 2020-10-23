@@ -44,3 +44,16 @@
   padding: 7px;
   margin: 5px;
 }
+
+.StackDesc {
+  margin: 0px 100px;
+  font-family: 'Helvetica';
+}
+
+.StackTopic {
+  font-family: 'Raleway', sans-serif;
+}
+
+a href{ 
+  text-decoration: none;
+}
