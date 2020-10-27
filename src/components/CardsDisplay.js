@@ -14,19 +14,12 @@ import './bootstrap.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p className="App-Title">
-          onDeck
-        </p>
-
-      </header>
       <span className="subdesc">
         <h1 className="StackTopic">Engineering Inspiration</h1>
         <h2 className="">Topic description</h2>
         <h4 className="StackDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien lacus, commodo sed volutpat nec, blandit malesuada elit. Mauris congue nec eros nec volutpat. Sed sit amet congue elit. Ut efficitur orci arcu, sit amet imperdiet turpis iaculis ut. Phasellus feugiat arcu metus, eu viverra felis cursus vitae.</h4>
       </span>
       <main className="">
-
         <i className = "fa fa-thumbs-up"/>[1500] Liked
         <i className = "fa fa-heart"/>[1,140] Favorites
         <i className = "fa fa-thumb-tack"/>[58,000] Following topic
@@ -45,7 +38,6 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
-
                 </aside>
           </span>
 
@@ -78,6 +70,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -91,6 +87,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -102,6 +102,10 @@ function App() {
                   </span>
                   <span><a href="starrt.com">
                   0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
                   </a>
                   </span>
                 </aside>
@@ -121,6 +125,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -132,6 +140,10 @@ function App() {
                   </span>
                   <span><a href="starrt.com">
                   0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
                   </a>
                   </span>
                 </aside>
@@ -147,6 +159,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -160,6 +176,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -171,6 +191,10 @@ function App() {
                   </span>
                   <span><a href="starrt.com">
                   0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
                   </a>
                   </span>
                 </aside>
@@ -188,6 +212,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -199,6 +227,10 @@ function App() {
                   </span>
                   <span><a href="starrt.com">
                   0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
                   </a>
                   </span>
                 </aside>
@@ -214,6 +246,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
           <span className="col">
@@ -225,6 +261,10 @@ function App() {
                   </span>
                   <span><a href="starrt.com">
                   0 <i className = "fa fa-thumb-tack"/>
+                  </a>
+                  </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
                   </a>
                   </span>
                 </aside>
@@ -240,6 +280,10 @@ function App() {
                   0 <i className = "fa fa-thumb-tack"/>
                   </a>
                   </span>
+                  <span> <a href="starrt.com">
+                  0 <i className = "fa fa-share-square"/>
+                  </a>
+                  </span>
                 </aside>
           </span>
         </div>
@@ -247,120 +291,3 @@ function App() {
     </div>
   );
 }
-
-
-// var TopicBar = {
-//   Stacks: 15,
-//   Liked: 1500,
-//   Favorites: 1.14k,
-//   Following: 34
-// }
-
-//<i className = "fa fa-thumb-tack"/>[0] Stacks
-
-
-                  // <span> <a href="starrt.com">
-                  // 0 <i className = "fa fa-share-square"/>
-                  // </a>
-                  // </span>
-
-
-// let cards = [
-//   {
-//     id: 1,
-//     cardstock1: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 2,
-//     cardstock2: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 3,
-//     cardstock3: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 4,
-//     cardstock4: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 5,
-//     cardstock5: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 6,
-//     cardstock6: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 7,
-//     cardstock7: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   },
-//   {
-//     id: 8,
-//     cardstock8: ,
-//     like: ,
-//     dislike: ,
-//     favorite: ,
-//     hide: 
-//   }
-// ]
-
-// const like() {
-//   return(
-
-//   );
-// }
-
-// const dislike() {
-//   return(
-
-//   );
-// }
-
-// const favorite() {
-//   return(
-
-//   );
-// }
-
-// const hide() {
-//   return(
-
-//   );
-// }
-
-
-// function CardDisplay() {
-//   return (
-//     <img src={cardstock1} className="" alt="carttest" />
-//   );
-// }
-
-export default App;
