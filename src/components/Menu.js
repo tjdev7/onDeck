@@ -10,13 +10,13 @@ function Menu() {
 	);
 }
  
-var MenuItems = [
-	{
-		Stacks: 0,
-		Liked: 1500,
-		Favorites: 1,140,000,
-		Following: 58,000
-	}
-]
+// var MenuItems = [
+// 	{
+// 		Stacks: 0,
+// 		Liked: 1500,
+// 		Favorites: 1,140,000,
+// 		Following: 58,000
+// 	}
+// ]
 
 export default Menu;
