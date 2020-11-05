@@ -1,0 +1,22 @@
+.App-Title {
+  font-family: 'Impact';
+  font-size: calc(30px + 3vmin);
+  
+}
+
+.App-Title,
+.App-Subtitle {
+  margin: -10px 0px 5px 10px;
+}
+
+.App-Title,
+.App-header
+h1 {
+    text-align: left;
+}
+
+.App-header {
+  background-color: #047240;
+  color: #FFFFFF;
+  border-bottom: 5px solid #000000;
+}

@@ -1,13 +1,15 @@
 import React from 'react';
 
-function Menu() {
-	return (
-		<main className="">
-	        <i className = "fa fa-thumbs-up"/>[1500] Liked
-	        <i className = "fa fa-heart"/>[1.14k.] Favorites
-	        <i className = "fa fa-thumb-tack"/>[0] Following topic
-      </main>
-	);
+class Menu extends React.Component {
+	render() {
+		return (
+			<main className="">
+		        <i className = "fa fa-thumbs-up"/>[1500] Liked
+		        <i className = "fa fa-heart"/>[1.14k.] Favorites
+		        <i className = "fa fa-thumb-tack"/>[0] Following topic
+	      	</main>
+      );
+	}
 }
  
 // var MenuItems = [
