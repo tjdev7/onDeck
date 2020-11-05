@@ -1,15 +1,15 @@
 import React from 'react';
-import img001 from './img/img001.jpg';
-import img002 from './img/img002.jpg';
-import img003 from './img/img003.jpg';
-import img004 from './img/img004.jpg';
-import img005 from './img/img005.jpg';
-import img006 from './img/img006.jpg';
-import img007 from './img/img007.jpg';
-import img008 from './img/img008.jpg';
-import img009 from './img/img009.jpg';
-import './App.css';
-import './bootstrap.css';
+// import img001 from '../img/img001.jpg';
+// import img002 from '../img/img002.jpg';
+// import img003 from '../img/img003.jpg';
+// import img004 from '../img/img004.jpg';
+// import img005 from '../img/img005.jpg';
+// import img006 from '../img/img006.jpg';
+// import img007 from '../img/img007.jpg';
+// import img008 from '../img/img008.jpg';
+// import img009 from '../img/img009.jpg';
+import '../index.css';
+import '../bootstrap.css';
 
 function CardsDisplay() {
   return (

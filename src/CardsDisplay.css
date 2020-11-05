@@ -1,0 +1,13 @@
+
+.col {
+  margin: 10px -21px -5px -20px;
+}
+
+.cardImage {
+  width: 200px;
+  height: 320px;
+}
+
+img {
+  border-radius: 5px;
+}

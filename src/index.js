@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './App.css';
 import img001 from './img/img001.jpg';
 import img002 from './img/img002.jpg';
 import img003 from './img/img003.jpg';
@@ -12,13 +11,17 @@ import img007 from './img/img007.jpg';
 import img008 from './img/img008.jpg';
 import img009 from './img/img009.jpg';
 
-import Menu from './components/Menu';
-import NavBar from './components/NavBar';
+// import Menu from './components/Menu';
+// import NavBar from './components/NavBar';
+// import CardsDisplay from './components/CardsDisplay';
 
+import './App.css';
 import './bootstrap.css';
 
 function App() {
   return (
+    // <NavBar />
+    // <Menu />
     <div className="App">
       <header className="App-header">
         <p className="App-Title">
