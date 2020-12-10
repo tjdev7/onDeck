@@ -197,8 +197,6 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img011} alt="Card-render-09" />
               <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -212,8 +210,6 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img012} alt="Card-render-10" />
               <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -227,8 +223,6 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img013} alt="Card-render-11" />
               <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -242,8 +236,6 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img014} alt="Card-render-12" />
               <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -257,8 +249,6 @@ function App() {
           <span className="col">
             <img className="cardImage" src={img015} alt="Card-render-04" />
             <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -275,8 +265,6 @@ function App() {
           <span className="col">
               <img className="cardImage" src={img016} alt="Card-render-01" />
                 <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -290,8 +278,6 @@ function App() {
           <span className ="col">
             <img className="cardImage" src={img017} alt="Card-render-02" />
             <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -305,8 +291,6 @@ function App() {
           <span className="col">
             <img className="cardImage" src={img018} alt="Card-render-03" />
             <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -320,8 +304,6 @@ function App() {
           <span className="col">
             <img className="cardImage" src={img019} alt="Card-render-04" />
             <aside> 
-                 <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
@@ -335,8 +317,6 @@ function App() {
           <span className="col">
             <img className="cardImage" src={img020} alt="Card-render-04" />
             <aside> 
-                  <span>Test</span>
-                  <br />
                   <span><a href="starrt.com"> 
                   0 <i className = "fa fa-thumbs-up"/>
                   </a>
