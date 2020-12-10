@@ -15,8 +15,8 @@
   color: #61dafb;
 }
 
-.Title {
-  font-family: 'Impact';
+.App-Title {
+  font-family: 'Helvetica', Bold;
   font-size: calc(40px + 3vmin);
   margin: -20px;
 }

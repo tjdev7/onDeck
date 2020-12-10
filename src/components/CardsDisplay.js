@@ -3,9 +3,34 @@ import PropTypes from 'prop-types';
 import ReactDom from 'react-dom';
 import 
 
-const Deck {
+const Deck = ({
 	cell: { img, likes, favorites }
-}
+}) => (
+
+	<div className="container">
+		<div className="rowtest1 row">
+	          <div className="col">
+	          	<div className="cardImage">{img}</div>
+	          	<div className=""><i className = "fa fa-thumbs-up"/>{likes}</div>
+	          	<div className=""><i className = "fa fa-thumb-tack"/>{favorites}</div>
+	          </div>
+	    </div>
+    </div>
+
+);
+
+Deck.propTypes = {
+	container: PropTypes.object.isRequired
+};
+
+const Deck = ({ }) => (
+
+);
+
+Deck.propTypes = {
+	container: PropTypes.array.isRequired
+};
+
 
 let cards = [
   {
@@ -128,6 +153,6 @@ let cards = [
     likes: 456,
     favorites: 594
   }
-]
+];
 
-export default 
+export default Deck;
