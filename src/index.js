@@ -44,7 +44,9 @@ function App() {
       </header>
       <span className="subdesc">
         <h1 className="StackTopic">Engineering Inspiration</h1>
-        <h4 className="StackDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien lacus, commodo sed volutpat nec, blandit malesuada elit. Mauris congue nec eros nec volutpat. Sed sit amet congue elit. Ut efficitur orci arcu, sit amet imperdiet turpis iaculis ut. Phasellus feugiat arcu metus, eu viverra felis cursus vitae.</h4>
+        <h4 className="StackDesc">Short description about current deck page</h4>
+
+
       </span>
       <main className="">
 
@@ -59,7 +61,7 @@ function App() {
               <img className="cardImage" src={img001} alt="Card-render-01" />
                 <aside> 
                   <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
+                  0 <button onClick={this.state.likestotal}><i className = "fa fa-thumbs-up"/></button>
                   </a>
                   </span>
                   <span><a href="starrt.com">
