@@ -1,7 +1,36 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactDom from 'react-dom';
-import 
+import ReactDom from 'react-dom'; 
+
+
+const Navbar = ({
+	mediagroup: { medialikes, mediaFavorites, mediaFollowing }
+}) => (
+	<div className="App">
+      <header className="App-header">
+        <p className="App-Title">
+          onDeck
+        </p>
+
+      </header>
+      <span className="subdesc">
+        <h1 className="StackTopic">Engineering Inspiration</h1>
+      </span>
+      <main className=""
+        <i className = "fa fa-thumbs-up"/>{medialikes} Liked
+        <i className = "fa fa-heart"/>{mediaFavorites} Favorites
+        <i className = "fa fa-thumb-tack"/>{mediaFollowing} Following topic
+      </main>
+);
+
+let engagemantNavBar = [
+	{
+		id: 0,
+		medialikes: 1500,
+        mediaFavorites: 1,140,
+        mediaFollowing: 58000
+	}
+]
 
 const Deck = ({
 	cell: { img, likes, favorites }
@@ -26,10 +55,10 @@ Deck.propTypes = {
 const Deck = ({ }) => (
 
 );
-
-Deck.propTypes = {
-	container: PropTypes.array.isRequired
-};
+//
+// Deck.propTypes = {
+// 	container: PropTypes.array.isRequired
+// };
 
 
 let cards = [
