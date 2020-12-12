@@ -37,16 +37,75 @@ const Deck = ({
 }) => (
 
 	<div className="container">
-		<div className="rowtest1 row">
-	          <div className="col">
-	          	<div className="cardImage">{img}</div>
-	          	<div className=""><i className = "fa fa-thumbs-up"/>{likes}</div>
-	          	<div className=""><i className = "fa fa-thumb-tack"/>{favorites}</div>
-	          </div>
+		<div className="row">
+	          <span className="col">
+	          	<img className="cardImage">{img}</div
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumbs-up"/>
+		          	</button>{likes}
+	          	</span>
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumb-tack"/>
+		          	</button>{favorites}
+	          	</span>
+	          </span>
+	          <span className="col">
+	          	<img className="cardImage">{img}</div
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumbs-up"/>
+		          	</button>{likes}
+	          	</span>
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumb-tack"/>
+		          	</button>{favorites}
+	          	</span>
+	          </span>
+	          <span className="col">
+	          	<img className="cardImage">{img}</div
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumbs-up"/>
+		          	</button>{likes}
+	          	</span>
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumb-tack"/>
+		          	</button>{favorites}
+	          	</span>
+	          </span>
+	          <span className="col">
+	          	<img className="cardImage">{img}</div
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumbs-up"/>
+		          	</button>{likes}
+	          	</span>
+	          	<span>
+		          	<button className="Media-Btn-NonPadding">
+		          	<i className = "fa fa-thumb-tack"/>
+		          	</button>{favorites}
+	          	</span>
+	          </span>
 	    </div>
     </div>
-
 );
+
+<span className ="col">
+            <img className="cardImage" src={img002} alt="Card-render-02" />
+            <aside> 
+                  <span> 
+                  14 <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>
+                  </span>
+                  <span>
+                  3 <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>
+                  </span>
+                </aside>
+          </span>
+
 
 Deck.propTypes = {
 	container: PropTypes.object.isRequired
@@ -144,7 +203,7 @@ let cards = [
     id: 14,
     cardstock2: require('./img/img014.jpg'),
     likes: 458,
-    favorites: 234
+    favorites: 243
   },
   {
     id: 15,
@@ -185,3 +244,29 @@ let cards = [
 ];
 
 export default Deck;
+
+
+//
+// function CardDisplay {
+// 	return (
+
+// 	);
+// }
+
+// const Header {
+// 	return (
+// 		<p className="App-Title">
+//           onDeck
+//         </p>
+//         <p className="App-Subtitle">Picture sharing platform</p>
+// 	);
+// }
+
+// ReactDOM.render(
+//     <CardDisplay {Header} = CardRacks />
+//   document.getElementById('root')
+// );
+
+// <Menu />
+// <CardDisplay />
+

@@ -57,3 +57,9 @@
 a href{ 
   text-decoration: none;
 }
+
+.Media-Btn-NonPadding {
+  background: none;
+  border: none;
+  padding: 0;
+}
