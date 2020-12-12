@@ -44,7 +44,7 @@ function App() {
       </header>
       <span className="subdesc">
         <h1 className="StackTopic">Engineering Inspiration</h1>
-        <h4 className="StackDesc">Short description about current deck page</h4>
+        <h4 className="StackDesc">General images for about mechanics, engineering, technology and science.</h4>
 
 
       </span>
@@ -56,32 +56,27 @@ function App() {
       </main>
 
       <div className="container">
-        <div className="rowtest1 row">
+        <div className="row">
           <span className="col">
               <img className="cardImage" src={img001} alt="Card-render-01" />
                 <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <button onClick={this.state.likestotal}><i className = "fa fa-thumbs-up"/></button>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>456
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>594
                   </span>
-
                 </aside>
           </span>
 
           <span className ="col">
             <img className="cardImage" src={img002} alt="Card-render-02" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>14
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>3
                   </span>
                 </aside>
           </span>
@@ -89,255 +84,212 @@ function App() {
           <span className="col">
             <img className="cardImage" src={img003} alt="Card-render-03" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>16 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>8 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img004} alt="Card-render-04" />
             <aside> 
-                 <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>25 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>14 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img005} alt="Card-render-04" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>75 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>114 
                   </span>
                 </aside>
           </span>
 
         </div>
 
-        <div className="rowtest1 row">
+        <div className="row">
           <span className="col">
               <img className="cardImage"  src={img006} alt="Card-render-05" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>10 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>15 
                   </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage"  src={img007} alt="Card-render-06" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>45 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>40 
                   </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img008} alt="Card-render-07" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>20 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>34 
                   </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img009} alt="Card-render-08" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>200 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>130 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img010} alt="Card-render-04" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>423 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>202 
                   </span>
                 </aside>
           </span>
         </div>
-        <div className="rowtest1 row">
+        <div className="row">
           <span className="col">
               <img className="cardImage" src={img011} alt="Card-render-09" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>70 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>30 
                   </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img012} alt="Card-render-10" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>70 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>10 
                   </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img013} alt="Card-render-11" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>196 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>82 
                   </span>
                 </aside>
           </span>
           <span className="col">
               <img className="cardImage" src={img014} alt="Card-render-12" />
               <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>125 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>234 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img015} alt="Card-render-04" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>458 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>243 
                   </span>
                 </aside>
           </span>
         </div>
 
-        <div className="rowtest1 row">
+        <div className="row">
           <span className="col">
               <img className="cardImage" src={img016} alt="Card-render-01" />
                 <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>109 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>73 
                   </span>
                 </aside>
           </span>
           <span className ="col">
             <img className="cardImage" src={img017} alt="Card-render-02" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>307 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>459 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img018} alt="Card-render-03" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>87 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>96 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img019} alt="Card-render-04" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>915 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>1034 
                   </span>
                 </aside>
           </span>
           <span className="col">
             <img className="cardImage" src={img020} alt="Card-render-04" />
             <aside> 
-                  <span><a href="starrt.com"> 
-                  0 <i className = "fa fa-thumbs-up"/>
-                  </a>
+                  <span> 
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumbs-up"/></button>783 
                   </span>
-                  <span><a href="starrt.com">
-                  0 <i className = "fa fa-thumb-tack"/>
-                  </a>
+                  <span>
+                  <button className="Media-Btn-NonPadding"><i className = "fa fa-thumb-tack"/></button>531 
                   </span>
                 </aside>
           </span>
-
         </div>
-
-
-
     </div>
-
-
-
     </div>
   );
 }
@@ -351,28 +303,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-//
-// function CardDisplay {
-// 	return (
 
-// 	);
-// }
-
-// const Header {
-// 	return (
-// 		<p className="App-Title">
-//           onDeck
-//         </p>
-//         <p className="App-Subtitle">Picture sharing platform</p>
-// 	);
-// }
-
-// ReactDOM.render(
-//     <CardDisplay {Header} = CardRacks />
-//   document.getElementById('root')
-// );
-
-// <Menu />
-// <CardDisplay />
 
 
