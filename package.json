@@ -1,6 +1,6 @@
 {
   "name": "onDeck",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "https://toughee.github.io/onDeck/",
   "private": true,
   "dependencies": {

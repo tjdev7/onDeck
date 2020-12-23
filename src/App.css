@@ -21,9 +21,16 @@
 }
 
 .App-Title {
-  font-family: 'Impact';
+  font-family: 'Dosis', sans-serif;
   font-size: calc(30px + 3vmin);
-  
+}
+
+.StackTopic{
+  font-family: 'Dosis', sans-serif;
+}
+
+.StackDesc {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-Title,
