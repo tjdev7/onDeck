@@ -32,6 +32,9 @@ import './App.css';
 import './bootstrap.css';
 
 function App() {
+// const toggle {}
+// {like} + 1 ? {like} -1
+//
   return (
     // <NavBar />
     // <Menu />

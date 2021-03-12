@@ -1,19 +1,7 @@
-/*.App {
-  text-align: center;
-  background-color: #E3E3E3;
-}*/
-
 .App-header {
   background-color: #047240;
-  /*min-height: 100vh;*/
-  /*display: flex;
-  flex-direction: column;*/
-  /*align-items: left;
-  justify-content: left;*/
-/*  font-size: calc(10px + 2vmin);*/
   color: #FFFFFF;
   border-bottom: 5px solid #000000;
-/*  margin: 15px 0px 0px 0px;*/
 }
 
 .App-link {
@@ -74,52 +62,6 @@ h1 {
   height: 320px;
 }
 
-/*.cardBack {
-  color: yellow;
-  border-radius: 15px;
-  width: 280px;
-  height: 400px;
-}*/
-
 img {
   border-radius: 5px;
 }
-
-/*
-
-
-
-.menu.media {
-
-}
-
-.menu.like {
-  favicon ref
-  fa fa-thumbs-up
-  color: white;
-}
-
-.menu.dislike {
-  favicon ref
-  fa fa-thumbs-down
-  color: white;
-}
-
-.menu.favorite {
-  favicon ref
-  fa fa-thumb-tack
-  color: white;
-}
-
-
-<i class="fa fa-thumb-tack" style="font-size:48px;color:red"></i>
-
-
-
-
-.menu.hide {
-  favicon ref
-    cancel
-  color: white;    
-}
-*/

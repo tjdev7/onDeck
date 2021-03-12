@@ -19,7 +19,9 @@ const Navbar = ({
       <main className=""
         <i className = "fa fa-thumbs-up"/>{medialikes} Liked
         <i className = "fa fa-heart"/>{mediaFavorites} Favorites
+        //  
         <i className = "fa fa-thumb-tack"/>{mediaFollowing} Following topic
+        //
       </main>
 );
 
@@ -50,6 +52,7 @@ const Deck = ({
 		          	<i className = "fa fa-thumb-tack"/>
 		          	</button>{favorites}
 	          	</span>
+
 	          </span>
 	          <span className="col">
 	          	<img className="cardImage">{img}</div
@@ -244,23 +247,6 @@ let cards = [
 ];
 
 export default Deck;
-
-
-//
-// function CardDisplay {
-// 	return (
-
-// 	);
-// }
-
-// const Header {
-// 	return (
-// 		<p className="App-Title">
-//           onDeck
-//         </p>
-//         <p className="App-Subtitle">Picture sharing platform</p>
-// 	);
-// }
 
 // ReactDOM.render(
 //     <CardDisplay {Header} = CardRacks />
