@@ -1,4 +1,4 @@
-![onDeck Logo](/public/onDeck_logo.png)
+![onDeck Logo](/public/ondeck_logo.png)
 
 # onDeck
 
