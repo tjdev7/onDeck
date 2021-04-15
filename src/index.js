@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
 import img001 from './img/img001.jpg';
 import img002 from './img/img002.jpg';
 import img003 from './img/img003.jpg';
@@ -56,6 +57,10 @@ function App() {
         <i className = "fa fa-thumbs-up"/>1500 Liked
         <i className = "fa fa-heart"/>1,140 Favorites
         <i className = "fa fa-thumb-tack"/>58000 Following topic
+
+          {/*<FontAwesomeIcon icon =  {faThumbsUp} /> 1500 Liked*/}
+          {/*<FontAwesomeIcon icon =  {faHeart} /> 1,140 Favorites*/}
+          {/*<FontAwesomeIcon icon =  {faThumbtack} />58000 Following topic*/}
       </main>
 
       <div className="container">
